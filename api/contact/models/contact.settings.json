@@ -12,9 +12,9 @@
   },
   "attributes": {
     "user": {
+      "via": "contacts",
       "plugin": "users-permissions",
-      "model": "user",
-      "via": "contacts"
+      "model": "user"
     },
     "name": {
       "type": "string"

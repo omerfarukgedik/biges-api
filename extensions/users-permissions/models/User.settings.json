@@ -68,22 +68,9 @@
     "surname": {
       "type": "string"
     },
-    "photo": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images"
-      ],
-      "plugin": "upload",
-      "required": false
-    },
-    "shares": {
-      "via": "users_permissions_users",
-      "collection": "share"
-    },
     "contacts": {
-      "via": "user",
-      "collection": "contact"
+      "collection": "contact",
+      "via": "user"
     }
   }
 }
